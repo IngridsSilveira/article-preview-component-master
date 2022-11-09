@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+main {
+  background-color: hsl(212deg, 23%, 69%);
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
+
+section {
+  background-color: hsl(210deg, 46%, 95%);
+  width: 650px;
+  height: 300px;
+  border-radius: 15px;
+  display: flex;
+}
+
+.imagem {
+  background: url("../../images/drawers~2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 900px;
+  height: 300px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.textos {
+  flex-direction: column;
+}
+
+.titulo {
+  font-size: 1.3rem;
+  color: hsl(217deg, 19%, 35%);
+  font-size: "Manrope", sans-serif;
+  font-weight: 700;
+}
+
+.descricao {
+  font-size: 13px;
+  width: 340px;
+  color: hsl(214deg, 17%, 51%);
+}
+
+.avatar {
+  width: 50px;
+  border-radius: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
